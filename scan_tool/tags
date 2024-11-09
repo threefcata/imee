@@ -1,0 +1,394 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.DEFAULT_GOAL	Makefile	/^.DEFAULT_GOAL=debug$/;"	m
+BIN	Makefile	/^BIN=imee$/;"	m
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-I$(INC) -ldl$/;"	m
+INC	Makefile	/^INC=include$/;"	m
+INIT_MM	src/rootkit_detector.c	57;"	d	file:
+INIT_MM	src/single_byte_watch.c	57;"	d	file:
+INIT_TASK	src/rootkit_detector.c	58;"	d	file:
+INIT_TASK	src/single_byte_watch.c	58;"	d	file:
+LIB	Makefile	/^LIB=vmi.so$/;"	m
+LIBSRC	Makefile	/^LIBSRC=lib$/;"	m
+M	lib/block.c	11;"	d	file:
+M	lib/block_with_int_handler.c	11;"	d	file:
+MODULES	src/rootkit_detector.c	55;"	d	file:
+MODULES	src/single_byte_watch.c	55;"	d	file:
+M_BASE	src/rootkit_detector.c	50;"	d	file:
+M_BASE	src/single_byte_watch.c	50;"	d	file:
+M_CORE	src/rootkit_detector.c	49;"	d	file:
+M_CORE	src/single_byte_watch.c	49;"	d	file:
+M_INIT	src/rootkit_detector.c	48;"	d	file:
+M_INIT	src/single_byte_watch.c	48;"	d	file:
+M_NAME	src/rootkit_detector.c	47;"	d	file:
+M_NAME	src/single_byte_watch.c	47;"	d	file:
+M_NEXT	src/rootkit_detector.c	46;"	d	file:
+M_NEXT	src/single_byte_watch.c	46;"	d	file:
+OBJ	Makefile	/^OBJ=$(patsubst %,$(SRC)\/%,$(_OBJ))$/;"	m
+RUNQUEUES	src/rootkit_detector.c	56;"	d	file:
+RUNQUEUES	src/single_byte_watch.c	56;"	d	file:
+SRC	Makefile	/^SRC=src$/;"	m
+SYS_CALL_TABLE	src/rootkit_detector.c	59;"	d	file:
+SYS_CALL_TABLE	src/single_byte_watch.c	59;"	d	file:
+SYS_OPEN	lib/block.c	20;"	d	file:
+SYS_OPEN	lib/block_with_int_handler.c	20;"	d	file:
+SYS_OPEN	src/rootkit_detector.c	53;"	d	file:
+SYS_OPEN	src/single_byte_watch.c	53;"	d	file:
+SYS_SIZE	lib/block.c	19;"	d	file:
+SYS_SIZE	lib/block_with_int_handler.c	19;"	d	file:
+SYS_SIZE	src/rootkit_detector.c	37;"	d	file:
+SYS_SIZE	src/rootkit_detector.c	52;"	d	file:
+SYS_SIZE	src/single_byte_watch.c	37;"	d	file:
+SYS_SIZE	src/single_byte_watch.c	52;"	d	file:
+TS_COMM	lib/block.c	16;"	d	file:
+TS_COMM	lib/block_with_int_handler.c	16;"	d	file:
+TS_COMM	src/rootkit_detector.c	43;"	d	file:
+TS_COMM	src/single_byte_watch.c	43;"	d	file:
+TS_NEXT	lib/block.c	15;"	d	file:
+TS_NEXT	lib/block_with_int_handler.c	15;"	d	file:
+TS_NEXT	src/rootkit_detector.c	42;"	d	file:
+TS_NEXT	src/single_byte_watch.c	42;"	d	file:
+TS_PID	lib/block.c	14;"	d	file:
+TS_PID	lib/block_with_int_handler.c	14;"	d	file:
+TS_PID	src/rootkit_detector.c	41;"	d	file:
+TS_PID	src/single_byte_watch.c	41;"	d	file:
+TS_PREV	lib/block.c	17;"	d	file:
+TS_PREV	lib/block_with_int_handler.c	17;"	d	file:
+TS_PREV	src/rootkit_detector.c	44;"	d	file:
+TS_PREV	src/single_byte_watch.c	44;"	d	file:
+TS_SIZE	lib/block.c	12;"	d	file:
+TS_SIZE	lib/block_with_int_handler.c	12;"	d	file:
+TS_SIZE	src/rootkit_detector.c	39;"	d	file:
+TS_SIZE	src/single_byte_watch.c	39;"	d	file:
+TS_STATE	lib/block.c	13;"	d	file:
+TS_STATE	lib/block_with_int_handler.c	13;"	d	file:
+TS_STATE	src/rootkit_detector.c	40;"	d	file:
+TS_STATE	src/single_byte_watch.c	40;"	d	file:
+_GNU_SOURCE	src/cred_step1.c	1;"	d	file:
+_GNU_SOURCE	src/cred_step2.c	1;"	d	file:
+_GNU_SOURCE	src/main.c	1;"	d	file:
+_GNU_SOURCE	src/pidlist.c	1;"	d	file:
+_GNU_SOURCE	src/pidlist_traversal.c	1;"	d	file:
+_GNU_SOURCE	src/pslist_traversal.c	1;"	d	file:
+_GNU_SOURCE	src/read_byte_pf.c	1;"	d	file:
+_GNU_SOURCE	src/rootkit_detector.c	1;"	d	file:
+_GNU_SOURCE	src/single_byte_watch.c	1;"	d	file:
+_GNU_SOURCE	src/sleep_one_sec.c	1;"	d	file:
+_GNU_SOURCE	src/syscalldmp.c	1;"	d	file:
+_OBJ	Makefile	/^_OBJ=imee.o main.o$/;"	m
+arg_blk	src/cred_step1.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/cred_step2.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/main.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/pidlist.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/pidlist_traversal.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/pslist_traversal.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/read_byte_pf.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/rootkit_detector.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/single_byte_watch.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/sleep_one_sec.c	/^struct arg_blk$/;"	s	file:
+arg_blk	src/syscalldmp.c	/^struct arg_blk$/;"	s	file:
+args	src/cred_step1.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/cred_step2.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/main.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/pidlist.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/pidlist_traversal.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/pslist_traversal.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/read_byte_pf.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/rootkit_detector.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/single_byte_watch.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/sleep_one_sec.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+args	src/syscalldmp.c	/^struct arg_blk args;$/;"	v	typeref:struct:arg_blk
+buffer	src/cred_step1.c	/^void* buffer;$/;"	v
+buffer	src/cred_step2.c	/^void* buffer;$/;"	v
+buffer	src/main.c	/^void* buffer;$/;"	v
+buffer	src/pidlist.c	/^void* buffer;$/;"	v
+buffer	src/pidlist_traversal.c	/^void* buffer;$/;"	v
+buffer	src/pslist_traversal.c	/^void* buffer;$/;"	v
+buffer	src/read_byte_pf.c	/^void* buffer;$/;"	v
+buffer	src/rootkit_detector.c	/^void* buffer;$/;"	v
+buffer	src/single_byte_watch.c	/^void* buffer;$/;"	v
+buffer	src/sleep_one_sec.c	/^void* buffer;$/;"	v
+buffer	src/syscalldmp.c	/^void* buffer;$/;"	v
+code_host	src/cred_step1.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/cred_step2.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/main.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/pidlist.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/pidlist_traversal.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/pslist_traversal.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/read_byte_pf.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/rootkit_detector.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/single_byte_watch.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/sleep_one_sec.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+code_host	src/syscalldmp.c	/^    unsigned long code_host;$/;"	m	struct:arg_blk	file:
+cr3	src/cred_step1.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/cred_step2.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/main.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/pidlist.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/pidlist_traversal.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/pslist_traversal.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/read_byte_pf.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/rootkit_detector.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/single_byte_watch.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/sleep_one_sec.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+cr3	src/syscalldmp.c	/^    unsigned long cr3;$/;"	m	struct:arg_blk	file:
+data_host	src/cred_step1.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/cred_step2.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/main.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/pidlist.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/pidlist_traversal.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/pslist_traversal.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/read_byte_pf.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/rootkit_detector.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/single_byte_watch.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/sleep_one_sec.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+data_host	src/syscalldmp.c	/^    unsigned long data_host;$/;"	m	struct:arg_blk	file:
+drv_list	include/util.h	14;"	d
+drv_name	include/util.h	15;"	d
+entry	batch1.c	/^__attribute__((fastcall)) void entry (unsigned long watermark, unsigned long *buffer)$/;"	f
+entry	batch2.c	/^__attribute__((fastcall)) void entry (unsigned long watermark, unsigned long *buffer)$/;"	f
+entry	block.c	/^void entry ()$/;"	f
+entry	block1.c	/^__attribute__((fastcall)) void entry (unsigned long watermark, unsigned long *buffer)$/;"	f
+entry	lib/block.c	/^void entry ()$/;"	f
+entry	lib/block_with_int_handler.c	/^void entry ()$/;"	f
+entry	lib/do_nothing.c	/^void entry ()$/;"	f
+entry	lib/hyp.c	/^void entry ()$/;"	f
+entry	lib/movsd.c	/^void entry ()$/;"	f
+entry	lib/pidlist.c	/^void entry ()$/;"	f
+entry	lib/pslist.c	/^void entry ()$/;"	f
+entry	src/cred_step1.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/cred_step2.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/main.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/pidlist.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/pidlist_traversal.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/pslist_traversal.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/read_byte_pf.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/rootkit_detector.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/single_byte_watch.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/sleep_one_sec.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+entry	src/syscalldmp.c	/^    unsigned long entry;$/;"	m	struct:arg_blk	file:
+fast_memcpy	block1.c	/^fast_memcpy(void *s1, const void *s2, size_t n)$/;"	f	file:
+fdt_fd	include/util.h	18;"	d
+filename	script/get_off.py	/^filename = 'src\/main.c'$/;"	v
+filename	script/get_off_64bit.py	/^filename = 'src\/main.c'$/;"	v
+files_fdt	include/util.h	17;"	d
+go	src/cred_step1.c	/^static int go ()$/;"	f	file:
+go	src/cred_step2.c	/^static int go ()$/;"	f	file:
+go	src/main.c	/^static int go ()$/;"	f	file:
+go	src/pidlist.c	/^static int go ()$/;"	f	file:
+go	src/pidlist_traversal.c	/^static int go ()$/;"	f	file:
+go	src/pslist_traversal.c	/^static int go ()$/;"	f	file:
+go	src/read_byte_pf.c	/^static int go ()$/;"	f	file:
+go	src/rootkit_detector.c	/^static int go ()$/;"	f	file:
+go	src/single_byte_watch.c	/^static int go ()$/;"	f	file:
+go	src/sleep_one_sec.c	/^static int go ()$/;"	f	file:
+got	src/cred_step1.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/cred_step2.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/main.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/pidlist.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/pidlist_traversal.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/pslist_traversal.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/read_byte_pf.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/rootkit_detector.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/single_byte_watch.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/sleep_one_sec.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got	src/syscalldmp.c	/^    unsigned long got;$/;"	m	struct:arg_blk	file:
+got_len	script/get_off.py	/^got_len = int(long_lines[0][5], 16) \/ int(long_lines[0][6], 16)$/;"	v
+got_len	script/get_off_64bit.py	/^got_len = int(long_lines[0][10], 16) \/ int(long_lines[0][6], 16)$/;"	v
+got_len	src/cred_step1.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/cred_step2.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/main.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/pidlist.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/pidlist_traversal.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/pslist_traversal.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/read_byte_pf.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/rootkit_detector.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/single_byte_watch.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/sleep_one_sec.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_len	src/syscalldmp.c	/^    unsigned long got_len;$/;"	m	struct:arg_blk	file:
+got_off	script/get_off.py	/^got_off = int(long_lines[0][3], 16)$/;"	v
+got_off	script/get_off_64bit.py	/^got_off = int(long_lines[0][4], 16)$/;"	v
+gotplt	src/cred_step1.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/cred_step2.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/main.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/pidlist.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/pidlist_traversal.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/pslist_traversal.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/read_byte_pf.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/rootkit_detector.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/single_byte_watch.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/sleep_one_sec.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt	src/syscalldmp.c	/^    unsigned long gotplt;$/;"	m	struct:arg_blk	file:
+gotplt_len	script/get_off.py	/^gotplt_len = int(long_lines[1][5], 16) \/ int(long_lines[1][6], 16)$/;"	v
+gotplt_len	script/get_off_64bit.py	/^gotplt_len = int(long_lines[1][10], 16) \/ int(long_lines[1][6], 16)$/;"	v
+gotplt_len	src/cred_step1.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/cred_step2.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/main.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/pidlist.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/pidlist_traversal.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/pslist_traversal.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/read_byte_pf.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/rootkit_detector.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/single_byte_watch.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/sleep_one_sec.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_len	src/syscalldmp.c	/^    unsigned long gotplt_len;$/;"	m	struct:arg_blk	file:
+gotplt_off	script/get_off.py	/^gotplt_off = int(long_lines[1][3], 16)$/;"	v
+gotplt_off	script/get_off_64bit.py	/^gotplt_off = int(long_lines[1][4], 16)$/;"	v
+i	script/get_off_64bit.py	/^i = 0$/;"	v
+init_task	include/util.h	1;"	d
+int_handler	src/main.c	/^    unsigned long int_handler;$/;"	m	struct:arg_blk	file:
+int_handler	src/pidlist_traversal.c	/^    unsigned long int_handler;$/;"	m	struct:arg_blk	file:
+int_handler	src/pslist_traversal.c	/^    unsigned long int_handler;$/;"	m	struct:arg_blk	file:
+int_handler	src/sleep_one_sec.c	/^    unsigned long int_handler;$/;"	m	struct:arg_blk	file:
+int_handler	src/syscalldmp.c	/^    unsigned long int_handler;$/;"	m	struct:arg_blk	file:
+kmem_list	include/util.h	26;"	d
+kmem_name	include/util.h	25;"	d
+kmem_size	include/util.h	24;"	d
+kvm	src/imee.c	/^int kvm, vmfd, vcpufd;$/;"	v
+lines	script/get_off.py	/^lines = run_cmd ('objdump -d vmi.so | grep "i686.get_pc_thunk.bx>:"')$/;"	v
+lines	script/get_off.py	/^lines = run_cmd ('readelf -S vmi.so | grep got')$/;"	v
+lines	script/get_off_64bit.py	/^lines = run_cmd ('readelf -S vmi.so | grep -A 1 got')$/;"	v
+long_lines	script/get_off.py	/^long_lines = []$/;"	v
+long_lines	script/get_off_64bit.py	/^long_lines = []$/;"	v
+main	src/cred_step1.c	/^int main()$/;"	f
+main	src/cred_step2.c	/^int main()$/;"	f
+main	src/main.c	/^int main()$/;"	f
+main	src/pidlist.c	/^int main()$/;"	f
+main	src/pidlist_traversal.c	/^int main()$/;"	f
+main	src/pslist_traversal.c	/^int main()$/;"	f
+main	src/read_byte_pf.c	/^int main()$/;"	f
+main	src/rootkit_detector.c	/^int main()$/;"	f
+main	src/single_byte_watch.c	/^int main()$/;"	f
+main	src/sleep_one_sec.c	/^int main()$/;"	f
+main	src/syscalldmp.c	/^int main()$/;"	f
+mem	src/imee.c	/^uint8_t *mem;$/;"	v
+memcpy_v	batch1.c	/^inline void memcpy_v(unsigned long *dst, unsigned long *src, unsigned long size) {$/;"	f
+memcpy_v	batch2.c	/^inline void memcpy_v(unsigned long *dst, unsigned long *src, unsigned long size) {$/;"	f
+mm_vma	include/util.h	28;"	d
+mmap_size	src/imee.c	/^size_t mmap_size;$/;"	v
+modules	include/util.h	3;"	d
+mov128	block1.c	/^mov128(uint8_t *dst, const uint8_t *src)$/;"	f	file:
+mov16	block1.c	/^mov16(uint8_t *dst, const uint8_t *src)$/;"	f	file:
+mov256	block1.c	/^mov256(uint8_t *dst, const uint8_t *src)$/;"	f	file:
+mov32	block1.c	/^mov32(uint8_t *dst, const uint8_t *src)$/;"	f	file:
+mov48	block1.c	/^mov48(uint8_t *dst, const uint8_t *src)$/;"	f	file:
+mov64	block1.c	/^mov64(uint8_t *dst, const uint8_t *src)$/;"	f	file:
+n_ptrs	src/cred_step2.c	/^int n_ptrs = 134;$/;"	v
+nf_hooks	include/util.h	4;"	d
+nfhook_hook	include/util.h	21;"	d
+nfhook_list	include/util.h	20;"	d
+nfhook_size	include/util.h	22;"	d
+num_w_page	src/cred_step1.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/cred_step2.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/main.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/pidlist.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/pidlist_traversal.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/pslist_traversal.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/read_byte_pf.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/rootkit_detector.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/single_byte_watch.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/sleep_one_sec.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_w_page	src/syscalldmp.c	/^    unsigned long num_w_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/cred_step1.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/cred_step2.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/main.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/pidlist.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/pidlist_traversal.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/pslist_traversal.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/read_byte_pf.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/rootkit_detector.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/single_byte_watch.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/sleep_one_sec.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+num_x_page	src/syscalldmp.c	/^    unsigned long num_x_page;$/;"	m	struct:arg_blk	file:
+offset	src/cred_step1.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/cred_step2.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/main.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/pidlist.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/pidlist_traversal.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/pslist_traversal.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/read_byte_pf.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/rootkit_detector.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/single_byte_watch.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/sleep_one_sec.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+offset	src/syscalldmp.c	/^    unsigned long offset;$/;"	m	struct:arg_blk	file:
+p1	src/cred_step1.c	/^void* p1;$/;"	v
+p1	src/cred_step2.c	/^void* p1;$/;"	v
+p1	src/main.c	/^void* p1;$/;"	v
+p1	src/pidlist.c	/^void* p1;$/;"	v
+p1	src/pidlist_traversal.c	/^void* p1;$/;"	v
+p1	src/pslist_traversal.c	/^void* p1;$/;"	v
+p1	src/read_byte_pf.c	/^void* p1;$/;"	v
+p1	src/rootkit_detector.c	/^void* p1;$/;"	v
+p1	src/single_byte_watch.c	/^void* p1;$/;"	v
+p1	src/sleep_one_sec.c	/^void* p1;$/;"	v
+p1	src/syscalldmp.c	/^void* p1;$/;"	v
+phdr_iterator	src/cred_step1.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/cred_step2.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/main.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/pidlist.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/pidlist_traversal.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/pslist_traversal.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/read_byte_pf.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/rootkit_detector.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/single_byte_watch.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/sleep_one_sec.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+phdr_iterator	src/syscalldmp.c	/^static int phdr_iterator (struct dl_phdr_info* info, size_t size, void* data)$/;"	f	file:
+pointers	src/cred_step2.c	/^unsigned long pointers[] = $/;"	v
+rdtsc	block1.c	/^static __attribute__((always_inline)) unsigned long long rdtsc(void)$/;"	f	file:
+rdtsc	include/util.h	/^static __attribute__((always_inline)) unsigned long long rdtsc(void)$/;"	f
+rdtsc	src/rootkit_detector.c	/^static __attribute__((always_inline)) unsigned long long rdtsc(void)$/;"	f	file:
+rdtsc	src/single_byte_watch.c	/^static __attribute__((always_inline)) unsigned long long rdtsc(void)$/;"	f	file:
+run	src/imee.c	/^struct kvm_run *run;$/;"	v	typeref:struct:kvm_run
+run_cmd	script/get_off.py	/^def run_cmd (cmd):$/;"	f
+run_cmd	script/get_off_64bit.py	/^def run_cmd (cmd):$/;"	f
+run_imee	src/imee.c	/^int run_imee ()$/;"	f
+setup_imee	src/imee.c	/^int setup_imee (void* args, void* p1)$/;"	f
+slab_caches	include/util.h	5;"	d
+sregs	src/imee.c	/^struct kvm_sregs sregs;$/;"	v	typeref:struct:kvm_sregs
+stack	src/cred_step1.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/cred_step2.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/main.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/pidlist.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/pidlist_traversal.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/pslist_traversal.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/read_byte_pf.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/rootkit_detector.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/single_byte_watch.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/sleep_one_sec.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+stack	src/syscalldmp.c	/^    unsigned long stack;$/;"	m	struct:arg_blk	file:
+sys_call_table	include/util.h	2;"	d
+t0	include/util.h	/^unsigned long long t0, t1;$/;"	v
+t0	src/rootkit_detector.c	/^unsigned long long t0, t1;$/;"	v
+t0	src/single_byte_watch.c	/^unsigned long long t0, t1;$/;"	v
+t1	include/util.h	/^unsigned long long t0, t1;$/;"	v
+t1	src/rootkit_detector.c	/^unsigned long long t0, t1;$/;"	v
+t1	src/single_byte_watch.c	/^unsigned long long t0, t1;$/;"	v
+thunk	src/cred_step1.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/cred_step2.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/main.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/pidlist.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/pidlist_traversal.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/pslist_traversal.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/read_byte_pf.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/rootkit_detector.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/single_byte_watch.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/sleep_one_sec.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk	src/syscalldmp.c	/^    unsigned long thunk;$/;"	m	struct:arg_blk	file:
+thunk_off	script/get_off.py	/^thunk_off = int(lines[0].split()[0], 16)$/;"	v
+traverse	batch1.c	/^inline void traverse(unsigned long dst, unsigned long start, unsigned long next_offset,$/;"	f
+traverse	batch2.c	/^inline void traverse(unsigned long dst, unsigned long start, unsigned long next_offset,$/;"	f
+ts_comm	include/util.h	9;"	d
+ts_cred	include/util.h	11;"	d
+ts_files	include/util.h	10;"	d
+ts_mm	include/util.h	12;"	d
+ts_pid	include/util.h	8;"	d
+ts_tasks	include/util.h	7;"	d
+vcpufd	src/imee.c	/^int kvm, vmfd, vcpufd;$/;"	v
+vma_vm_end	include/util.h	31;"	d
+vma_vm_next	include/util.h	32;"	d
+vma_vm_start	include/util.h	30;"	d
+vmfd	src/imee.c	/^int kvm, vmfd, vcpufd;$/;"	v
